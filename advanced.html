@@ -6,10 +6,14 @@
     </head>
     <body>
         <form class="search" action="https://www.google.com/search">
-            <div> <input type="text" name="as_q" value="all of these words"> </div>
-            <div> <input type="text" name="as_oq" value="any of these words"> </div>
-            <div> <input type="text" name="as_epq" value="these exact words"> </div>
-            <div> <input type="text" name="as_eq" value="none of these words"> </div>   
+            <label for="all">All of these words:</label>
+            <div> <input type="text" name="as_q" id="all"> </div>
+            <label for="any">Any of these words:</label>
+            <div> <input type="text" name="as_oq" id="any"> </div>
+            <label for="exact">These exact words:</label>
+            <div> <input type="text" name="as_epq" id="exact"> </div>
+            <label for="none">None of these words:</label>
+            <div> <input type="text" name="as_eq" id="none"> </div>   
             <div> <input type="submit" value="Advanced Search"> </div>
         </form>
     </body>
